@@ -1,0 +1,12 @@
+numpy
+Pillow
+matplotlib
+sklearn
+tensorboardX
+opencv-python
+lmdb
+pyarrow
+pytorch-ignite
+tqdm
+torchvision
+configargparse
