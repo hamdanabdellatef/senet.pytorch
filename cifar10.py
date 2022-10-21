@@ -18,6 +18,7 @@ import torch.distributed as dist
 import torch.utils.data.distributed
 import torch.optim as optim
 import torch.utils.data as data
+import torchvision
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 import torchvision.models as models
