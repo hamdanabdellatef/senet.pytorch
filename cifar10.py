@@ -104,6 +104,7 @@ parser.add_argument('--stlayer', default=0, type=int,
 parser.add_argument('--dataset', default='imagenet',
                     help='dataset used')
 parser.add_argument("--reduction", type=int, default=16)
+parser.add_argument("--baseline", action="store_true")
 
 args = parser.parse_args()
 state = {k: v for k, v in args._get_kwargs()}
